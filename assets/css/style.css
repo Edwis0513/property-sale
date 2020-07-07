@@ -20,16 +20,18 @@ header {
     height: 100px;
     width: 100%;
 }
+
 header div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
 }
+
 h2 {
     font-size: 1.4rem;
     font-weight: 500;
-    margin: 0.3em 0;
+    margin: 0 0 0.3em 0;
 }
 
 header p {
@@ -43,6 +45,17 @@ form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+form h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+form>label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding-top: 0.2em;
 }
 
 form>input {
@@ -63,3 +76,15 @@ form>input[type="submit"] {
     padding: 0.5em 0;
     border: none;
 }
+
+/* links  */
+.links {
+    margin: 1.2em 0;
+}
+
+.links a {
+    font-size: 0.6rem;
+    text-decoration: none;
+}
+
+@media only screen and (min-widht: 768px) {}
