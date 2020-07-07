@@ -17,20 +17,22 @@
         </div>
     </header>
     <main class="wrapper">
-        <form name="add_property" action="" method="POST">
+        <form name="add_property" method="POST">
             <h3>Add Property</h3>
             <label for="img-input">Img</label>
             <input name="img_input" id="img-input" type="text" placeholder="https:/google.com">
             <label for="price-input">Price, EUR</label>
             <input name="price_input" id="price-input" type="text" placeholder="150000">
             <label for="description-input">Description</label>
-            <textarea name="description-input" id="description-input" type="text" placeholder="anything you like to say.."></textarea>
+            <textarea name="description-input" id="description-input" type="text"
+                placeholder="anything you like to say.."></textarea>
             <label for="city-input">City</label>
             <select name="city_input" id="city-input">
                 <option value="Vilnius">Vilnius</option>
                 <option value="Klaipėda">Klaipėda</option>
                 <option value="Kaunas">Kaunas</option>
             </select>
+            <input class="btn" name="add_property" type="submit" value="Add Property">
         </form>
         <div class="links">
             <a href="../../index.html">login</a>
